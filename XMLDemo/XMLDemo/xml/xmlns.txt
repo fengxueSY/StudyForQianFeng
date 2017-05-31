@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns:book="http://www.baidu.com">
+    <books>
+        <book id="1" language="ch">
+            <book:name>甄嬛传</book:name>
+            <auther>
+                <name>流潋紫</name>
+            </auther>
+            <price>80.00</price>
+            <summary>一部宫廷情感大戏，口碑极佳，被称为宫廷剧的终结篇，是一部具有里程碑意义的经典之作。在日本，韩国，美国等相继播出。</summary>
+        </book>
+        <book id="2" language="ch">
+            <book:name>呐喊</book:name>
+            <auther>
+                <name>鲁迅</name>
+            </auther>
+            <price>12.00</price>
+            <summary>揭示了中国的社会面貌，控诉了封建制度的罪恶，喊出了“五四”时期革命者的心声。它反映了“五四”彻底不妥协地反封建主义的革命精神，适应了中国革命从旧民主主义向新民主主义转变的需要，在中国现代文化史和文学史上占有重要地位！</summary>
+        </book>
+        <book id="3" language="en">
+            <book:name>哈利波特</book:name>
+            <auther>
+                <name>JK罗琳</name>
+            </auther>
+            <price>365.00</price>
+            <summary>主人公哈利·波特在霍格沃茨魔法学校六年的学习生活和冒险故事。</summary>
+        </book>
+    </books>
+</root>

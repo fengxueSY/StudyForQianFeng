@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EDA8C941A2807D700A41DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA8C931A2807D700A41DCA /* main.m */; };
+		4EDA8C971A2807D700A41DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA8C961A2807D700A41DCA /* AppDelegate.m */; };
+		4EDA8C9A1A2807D700A41DCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA8C991A2807D700A41DCA /* ViewController.m */; };
+		4EDA8C9D1A2807D700A41DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8C9B1A2807D700A41DCA /* Main.storyboard */; };
+		4EDA8C9F1A2807D700A41DCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8C9E1A2807D700A41DCA /* Images.xcassets */; };
+		4EDA8CA21A2807D700A41DCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8CA01A2807D700A41DCA /* LaunchScreen.xib */; };
+		4EDA8CAE1A2807D700A41DCA /* BubbleChatDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA8CAD1A2807D700A41DCA /* BubbleChatDemoTests.m */; };
+		4EDA8CC01A28080F00A41DCA /* Private letter_List_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8CB81A28080F00A41DCA /* Private letter_List_1.png */; };
+		4EDA8CC11A28080F00A41DCA /* Private letter_List_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8CB91A28080F00A41DCA /* Private letter_List_1@2x.png */; };
+		4EDA8CC21A28080F00A41DCA /* Private letter_List_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8CBA1A28080F00A41DCA /* Private letter_List_2.png */; };
+		4EDA8CC31A28080F00A41DCA /* Private letter_List_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8CBB1A28080F00A41DCA /* Private letter_List_2@2x.png */; };
+		4EDA8CC41A28080F00A41DCA /* ReceiverTextNodeBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8CBC1A28080F00A41DCA /* ReceiverTextNodeBkg.png */; };
+		4EDA8CC51A28080F00A41DCA /* ReceiverTextNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8CBD1A28080F00A41DCA /* ReceiverTextNodeBkg@2x.png */; };
+		4EDA8CC61A28080F00A41DCA /* SenderTextNodeBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8CBE1A28080F00A41DCA /* SenderTextNodeBkg.png */; };
+		4EDA8CC71A28080F00A41DCA /* SenderTextNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA8CBF1A28080F00A41DCA /* SenderTextNodeBkg@2x.png */; };
+		4EDA8CCA1A280CD700A41DCA /* ChatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA8CC91A280CD700A41DCA /* ChatItem.m */; };
+		4EDA8CCD1A280D3D00A41DCA /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA8CCC1A280D3D00A41DCA /* ChatCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EDA8CA81A2807D700A41DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDA8C861A2807D700A41DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDA8C8D1A2807D700A41DCA;
+			remoteInfo = BubbleChatDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EDA8C8E1A2807D700A41DCA /* BubbleChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDA8C921A2807D700A41DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDA8C931A2807D700A41DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EDA8C951A2807D700A41DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EDA8C961A2807D700A41DCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EDA8C981A2807D700A41DCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4EDA8C991A2807D700A41DCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EDA8C9C1A2807D700A41DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EDA8C9E1A2807D700A41DCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EDA8CA11A2807D700A41DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4EDA8CA71A2807D700A41DCA /* BubbleChatDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleChatDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDA8CAC1A2807D700A41DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDA8CAD1A2807D700A41DCA /* BubbleChatDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleChatDemoTests.m; sourceTree = "<group>"; };
+		4EDA8CB81A28080F00A41DCA /* Private letter_List_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Private letter_List_1.png"; sourceTree = "<group>"; };
+		4EDA8CB91A28080F00A41DCA /* Private letter_List_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Private letter_List_1@2x.png"; sourceTree = "<group>"; };
+		4EDA8CBA1A28080F00A41DCA /* Private letter_List_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Private letter_List_2.png"; sourceTree = "<group>"; };
+		4EDA8CBB1A28080F00A41DCA /* Private letter_List_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Private letter_List_2@2x.png"; sourceTree = "<group>"; };
+		4EDA8CBC1A28080F00A41DCA /* ReceiverTextNodeBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReceiverTextNodeBkg.png; sourceTree = "<group>"; };
+		4EDA8CBD1A28080F00A41DCA /* ReceiverTextNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverTextNodeBkg@2x.png"; sourceTree = "<group>"; };
+		4EDA8CBE1A28080F00A41DCA /* SenderTextNodeBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SenderTextNodeBkg.png; sourceTree = "<group>"; };
+		4EDA8CBF1A28080F00A41DCA /* SenderTextNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderTextNodeBkg@2x.png"; sourceTree = "<group>"; };
+		4EDA8CC81A280CD700A41DCA /* ChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatItem.h; sourceTree = "<group>"; };
+		4EDA8CC91A280CD700A41DCA /* ChatItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatItem.m; sourceTree = "<group>"; };
+		4EDA8CCB1A280D3D00A41DCA /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		4EDA8CCC1A280D3D00A41DCA /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EDA8C8B1A2807D700A41DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDA8CA41A2807D700A41DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EDA8C851A2807D700A41DCA = {
+			isa = PBXGroup;
+			children = (
+				4EDA8C901A2807D700A41DCA /* BubbleChatDemo */,
+				4EDA8CAA1A2807D700A41DCA /* BubbleChatDemoTests */,
+				4EDA8C8F1A2807D700A41DCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EDA8C8F1A2807D700A41DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA8C8E1A2807D700A41DCA /* BubbleChatDemo.app */,
+				4EDA8CA71A2807D700A41DCA /* BubbleChatDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDA8C901A2807D700A41DCA /* BubbleChatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA8CB71A28080F00A41DCA /* bubble */,
+				4EDA8C951A2807D700A41DCA /* AppDelegate.h */,
+				4EDA8C961A2807D700A41DCA /* AppDelegate.m */,
+				4EDA8C981A2807D700A41DCA /* ViewController.h */,
+				4EDA8C991A2807D700A41DCA /* ViewController.m */,
+				4EDA8CC81A280CD700A41DCA /* ChatItem.h */,
+				4EDA8CC91A280CD700A41DCA /* ChatItem.m */,
+				4EDA8CCB1A280D3D00A41DCA /* ChatCell.h */,
+				4EDA8CCC1A280D3D00A41DCA /* ChatCell.m */,
+				4EDA8C9B1A2807D700A41DCA /* Main.storyboard */,
+				4EDA8C9E1A2807D700A41DCA /* Images.xcassets */,
+				4EDA8CA01A2807D700A41DCA /* LaunchScreen.xib */,
+				4EDA8C911A2807D700A41DCA /* Supporting Files */,
+			);
+			path = BubbleChatDemo;
+			sourceTree = "<group>";
+		};
+		4EDA8C911A2807D700A41DCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA8C921A2807D700A41DCA /* Info.plist */,
+				4EDA8C931A2807D700A41DCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EDA8CAA1A2807D700A41DCA /* BubbleChatDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA8CAD1A2807D700A41DCA /* BubbleChatDemoTests.m */,
+				4EDA8CAB1A2807D700A41DCA /* Supporting Files */,
+			);
+			path = BubbleChatDemoTests;
+			sourceTree = "<group>";
+		};
+		4EDA8CAB1A2807D700A41DCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA8CAC1A2807D700A41DCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EDA8CB71A28080F00A41DCA /* bubble */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA8CB81A28080F00A41DCA /* Private letter_List_1.png */,
+				4EDA8CB91A28080F00A41DCA /* Private letter_List_1@2x.png */,
+				4EDA8CBA1A28080F00A41DCA /* Private letter_List_2.png */,
+				4EDA8CBB1A28080F00A41DCA /* Private letter_List_2@2x.png */,
+				4EDA8CBC1A28080F00A41DCA /* ReceiverTextNodeBkg.png */,
+				4EDA8CBD1A28080F00A41DCA /* ReceiverTextNodeBkg@2x.png */,
+				4EDA8CBE1A28080F00A41DCA /* SenderTextNodeBkg.png */,
+				4EDA8CBF1A28080F00A41DCA /* SenderTextNodeBkg@2x.png */,
+			);
+			path = bubble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EDA8C8D1A2807D700A41DCA /* BubbleChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDA8CB11A2807D700A41DCA /* Build configuration list for PBXNativeTarget "BubbleChatDemo" */;
+			buildPhases = (
+				4EDA8C8A1A2807D700A41DCA /* Sources */,
+				4EDA8C8B1A2807D700A41DCA /* Frameworks */,
+				4EDA8C8C1A2807D700A41DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleChatDemo;
+			productName = BubbleChatDemo;
+			productReference = 4EDA8C8E1A2807D700A41DCA /* BubbleChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EDA8CA61A2807D700A41DCA /* BubbleChatDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDA8CB41A2807D700A41DCA /* Build configuration list for PBXNativeTarget "BubbleChatDemoTests" */;
+			buildPhases = (
+				4EDA8CA31A2807D700A41DCA /* Sources */,
+				4EDA8CA41A2807D700A41DCA /* Frameworks */,
+				4EDA8CA51A2807D700A41DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDA8CA91A2807D700A41DCA /* PBXTargetDependency */,
+			);
+			name = BubbleChatDemoTests;
+			productName = BubbleChatDemoTests;
+			productReference = 4EDA8CA71A2807D700A41DCA /* BubbleChatDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EDA8C861A2807D700A41DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = pk;
+				TargetAttributes = {
+					4EDA8C8D1A2807D700A41DCA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4EDA8CA61A2807D700A41DCA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4EDA8C8D1A2807D700A41DCA;
+					};
+				};
+			};
+			buildConfigurationList = 4EDA8C891A2807D700A41DCA /* Build configuration list for PBXProject "BubbleChatDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EDA8C851A2807D700A41DCA;
+			productRefGroup = 4EDA8C8F1A2807D700A41DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EDA8C8D1A2807D700A41DCA /* BubbleChatDemo */,
+				4EDA8CA61A2807D700A41DCA /* BubbleChatDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EDA8C8C1A2807D700A41DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDA8C9D1A2807D700A41DCA /* Main.storyboard in Resources */,
+				4EDA8CC11A28080F00A41DCA /* Private letter_List_1@2x.png in Resources */,
+				4EDA8CC61A28080F00A41DCA /* SenderTextNodeBkg.png in Resources */,
+				4EDA8CA21A2807D700A41DCA /* LaunchScreen.xib in Resources */,
+				4EDA8CC21A28080F00A41DCA /* Private letter_List_2.png in Resources */,
+				4EDA8CC01A28080F00A41DCA /* Private letter_List_1.png in Resources */,
+				4EDA8C9F1A2807D700A41DCA /* Images.xcassets in Resources */,
+				4EDA8CC51A28080F00A41DCA /* ReceiverTextNodeBkg@2x.png in Resources */,
+				4EDA8CC71A28080F00A41DCA /* SenderTextNodeBkg@2x.png in Resources */,
+				4EDA8CC41A28080F00A41DCA /* ReceiverTextNodeBkg.png in Resources */,
+				4EDA8CC31A28080F00A41DCA /* Private letter_List_2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDA8CA51A2807D700A41DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EDA8C8A1A2807D700A41DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDA8CCA1A280CD700A41DCA /* ChatItem.m in Sources */,
+				4EDA8C9A1A2807D700A41DCA /* ViewController.m in Sources */,
+				4EDA8C971A2807D700A41DCA /* AppDelegate.m in Sources */,
+				4EDA8CCD1A280D3D00A41DCA /* ChatCell.m in Sources */,
+				4EDA8C941A2807D700A41DCA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDA8CA31A2807D700A41DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDA8CAE1A2807D700A41DCA /* BubbleChatDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EDA8CA91A2807D700A41DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDA8C8D1A2807D700A41DCA /* BubbleChatDemo */;
+			targetProxy = 4EDA8CA81A2807D700A41DCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EDA8C9B1A2807D700A41DCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDA8C9C1A2807D700A41DCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EDA8CA01A2807D700A41DCA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDA8CA11A2807D700A41DCA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EDA8CAF1A2807D700A41DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EDA8CB01A2807D700A41DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EDA8CB21A2807D700A41DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubbleChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EDA8CB31A2807D700A41DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubbleChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EDA8CB51A2807D700A41DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BubbleChatDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleChatDemo.app/BubbleChatDemo";
+			};
+			name = Debug;
+		};
+		4EDA8CB61A2807D700A41DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BubbleChatDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleChatDemo.app/BubbleChatDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EDA8C891A2807D700A41DCA /* Build configuration list for PBXProject "BubbleChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDA8CAF1A2807D700A41DCA /* Debug */,
+				4EDA8CB01A2807D700A41DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDA8CB11A2807D700A41DCA /* Build configuration list for PBXNativeTarget "BubbleChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDA8CB21A2807D700A41DCA /* Debug */,
+				4EDA8CB31A2807D700A41DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EDA8CB41A2807D700A41DCA /* Build configuration list for PBXNativeTarget "BubbleChatDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDA8CB51A2807D700A41DCA /* Debug */,
+				4EDA8CB61A2807D700A41DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EDA8C861A2807D700A41DCA /* Project object */;
+}

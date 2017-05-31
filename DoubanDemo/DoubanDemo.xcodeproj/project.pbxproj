@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E72088D1A3535DD001D8D57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72088C1A3535DD001D8D57 /* main.m */; };
+		4E7208901A3535DD001D8D57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72088F1A3535DD001D8D57 /* AppDelegate.m */; };
+		4E7208931A3535DD001D8D57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208921A3535DD001D8D57 /* ViewController.m */; };
+		4E7208961A3535DD001D8D57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7208941A3535DD001D8D57 /* Main.storyboard */; };
+		4E7208981A3535DD001D8D57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7208971A3535DD001D8D57 /* Images.xcassets */; };
+		4E72089B1A3535DD001D8D57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E7208991A3535DD001D8D57 /* LaunchScreen.xib */; };
+		4E7208A71A3535DD001D8D57 /* DoubanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208A61A3535DD001D8D57 /* DoubanDemoTests.m */; };
+		4E7208C41A353695001D8D57 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208B21A353695001D8D57 /* AFHTTPClient.m */; };
+		4E7208C51A353695001D8D57 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208B41A353695001D8D57 /* AFHTTPRequestOperation.m */; };
+		4E7208C61A353695001D8D57 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208B61A353695001D8D57 /* AFImageRequestOperation.m */; };
+		4E7208C71A353695001D8D57 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208B81A353695001D8D57 /* AFJSONRequestOperation.m */; };
+		4E7208C81A353695001D8D57 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208BA1A353695001D8D57 /* AFNetworkActivityIndicatorManager.m */; };
+		4E7208C91A353695001D8D57 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208BD1A353695001D8D57 /* AFPropertyListRequestOperation.m */; };
+		4E7208CA1A353695001D8D57 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208BF1A353695001D8D57 /* AFURLConnectionOperation.m */; };
+		4E7208CB1A353695001D8D57 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208C11A353695001D8D57 /* AFXMLRequestOperation.m */; };
+		4E7208CC1A353695001D8D57 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7208C31A353695001D8D57 /* UIImageView+AFNetworking.m */; };
+		4E7208CE1A353FA8001D8D57 /* 00.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7208CD1A353FA8001D8D57 /* 00.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E7208A11A3535DD001D8D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E72087F1A3535DD001D8D57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7208861A3535DD001D8D57;
+			remoteInfo = DoubanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E7208871A3535DD001D8D57 /* DoubanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E72088B1A3535DD001D8D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E72088C1A3535DD001D8D57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E72088E1A3535DD001D8D57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E72088F1A3535DD001D8D57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E7208911A3535DD001D8D57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E7208921A3535DD001D8D57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E7208951A3535DD001D8D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E7208971A3535DD001D8D57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E72089A1A3535DD001D8D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4E7208A01A3535DD001D8D57 /* DoubanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7208A51A3535DD001D8D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7208A61A3535DD001D8D57 /* DoubanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanDemoTests.m; sourceTree = "<group>"; };
+		4E7208B11A353695001D8D57 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		4E7208B21A353695001D8D57 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		4E7208B31A353695001D8D57 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4E7208B41A353695001D8D57 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4E7208B51A353695001D8D57 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		4E7208B61A353695001D8D57 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		4E7208B71A353695001D8D57 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		4E7208B81A353695001D8D57 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		4E7208B91A353695001D8D57 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		4E7208BA1A353695001D8D57 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		4E7208BB1A353695001D8D57 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4E7208BC1A353695001D8D57 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		4E7208BD1A353695001D8D57 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		4E7208BE1A353695001D8D57 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4E7208BF1A353695001D8D57 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4E7208C01A353695001D8D57 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		4E7208C11A353695001D8D57 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		4E7208C21A353695001D8D57 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		4E7208C31A353695001D8D57 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		4E7208CD1A353FA8001D8D57 /* 00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 00.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E7208841A3535DD001D8D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E72089D1A3535DD001D8D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E72087E1A3535DD001D8D57 = {
+			isa = PBXGroup;
+			children = (
+				4E7208891A3535DD001D8D57 /* DoubanDemo */,
+				4E7208A31A3535DD001D8D57 /* DoubanDemoTests */,
+				4E7208881A3535DD001D8D57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E7208881A3535DD001D8D57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7208871A3535DD001D8D57 /* DoubanDemo.app */,
+				4E7208A01A3535DD001D8D57 /* DoubanDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7208891A3535DD001D8D57 /* DoubanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4E7208CD1A353FA8001D8D57 /* 00.png */,
+				4E7208B01A353695001D8D57 /* AFNetworking */,
+				4E72088E1A3535DD001D8D57 /* AppDelegate.h */,
+				4E72088F1A3535DD001D8D57 /* AppDelegate.m */,
+				4E7208911A3535DD001D8D57 /* ViewController.h */,
+				4E7208921A3535DD001D8D57 /* ViewController.m */,
+				4E7208941A3535DD001D8D57 /* Main.storyboard */,
+				4E7208971A3535DD001D8D57 /* Images.xcassets */,
+				4E7208991A3535DD001D8D57 /* LaunchScreen.xib */,
+				4E72088A1A3535DD001D8D57 /* Supporting Files */,
+			);
+			path = DoubanDemo;
+			sourceTree = "<group>";
+		};
+		4E72088A1A3535DD001D8D57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E72088B1A3535DD001D8D57 /* Info.plist */,
+				4E72088C1A3535DD001D8D57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E7208A31A3535DD001D8D57 /* DoubanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E7208A61A3535DD001D8D57 /* DoubanDemoTests.m */,
+				4E7208A41A3535DD001D8D57 /* Supporting Files */,
+			);
+			path = DoubanDemoTests;
+			sourceTree = "<group>";
+		};
+		4E7208A41A3535DD001D8D57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E7208A51A3535DD001D8D57 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E7208B01A353695001D8D57 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4E7208B11A353695001D8D57 /* AFHTTPClient.h */,
+				4E7208B21A353695001D8D57 /* AFHTTPClient.m */,
+				4E7208B31A353695001D8D57 /* AFHTTPRequestOperation.h */,
+				4E7208B41A353695001D8D57 /* AFHTTPRequestOperation.m */,
+				4E7208B51A353695001D8D57 /* AFImageRequestOperation.h */,
+				4E7208B61A353695001D8D57 /* AFImageRequestOperation.m */,
+				4E7208B71A353695001D8D57 /* AFJSONRequestOperation.h */,
+				4E7208B81A353695001D8D57 /* AFJSONRequestOperation.m */,
+				4E7208B91A353695001D8D57 /* AFNetworkActivityIndicatorManager.h */,
+				4E7208BA1A353695001D8D57 /* AFNetworkActivityIndicatorManager.m */,
+				4E7208BB1A353695001D8D57 /* AFNetworking.h */,
+				4E7208BC1A353695001D8D57 /* AFPropertyListRequestOperation.h */,
+				4E7208BD1A353695001D8D57 /* AFPropertyListRequestOperation.m */,
+				4E7208BE1A353695001D8D57 /* AFURLConnectionOperation.h */,
+				4E7208BF1A353695001D8D57 /* AFURLConnectionOperation.m */,
+				4E7208C01A353695001D8D57 /* AFXMLRequestOperation.h */,
+				4E7208C11A353695001D8D57 /* AFXMLRequestOperation.m */,
+				4E7208C21A353695001D8D57 /* UIImageView+AFNetworking.h */,
+				4E7208C31A353695001D8D57 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E7208861A3535DD001D8D57 /* DoubanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7208AA1A3535DD001D8D57 /* Build configuration list for PBXNativeTarget "DoubanDemo" */;
+			buildPhases = (
+				4E7208831A3535DD001D8D57 /* Sources */,
+				4E7208841A3535DD001D8D57 /* Frameworks */,
+				4E7208851A3535DD001D8D57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubanDemo;
+			productName = DoubanDemo;
+			productReference = 4E7208871A3535DD001D8D57 /* DoubanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E72089F1A3535DD001D8D57 /* DoubanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7208AD1A3535DD001D8D57 /* Build configuration list for PBXNativeTarget "DoubanDemoTests" */;
+			buildPhases = (
+				4E72089C1A3535DD001D8D57 /* Sources */,
+				4E72089D1A3535DD001D8D57 /* Frameworks */,
+				4E72089E1A3535DD001D8D57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E7208A21A3535DD001D8D57 /* PBXTargetDependency */,
+			);
+			name = DoubanDemoTests;
+			productName = DoubanDemoTests;
+			productReference = 4E7208A01A3535DD001D8D57 /* DoubanDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E72087F1A3535DD001D8D57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = pk;
+				TargetAttributes = {
+					4E7208861A3535DD001D8D57 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4E72089F1A3535DD001D8D57 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4E7208861A3535DD001D8D57;
+					};
+				};
+			};
+			buildConfigurationList = 4E7208821A3535DD001D8D57 /* Build configuration list for PBXProject "DoubanDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E72087E1A3535DD001D8D57;
+			productRefGroup = 4E7208881A3535DD001D8D57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E7208861A3535DD001D8D57 /* DoubanDemo */,
+				4E72089F1A3535DD001D8D57 /* DoubanDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E7208851A3535DD001D8D57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7208961A3535DD001D8D57 /* Main.storyboard in Resources */,
+				4E7208CE1A353FA8001D8D57 /* 00.png in Resources */,
+				4E72089B1A3535DD001D8D57 /* LaunchScreen.xib in Resources */,
+				4E7208981A3535DD001D8D57 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E72089E1A3535DD001D8D57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E7208831A3535DD001D8D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7208C61A353695001D8D57 /* AFImageRequestOperation.m in Sources */,
+				4E7208931A3535DD001D8D57 /* ViewController.m in Sources */,
+				4E7208C91A353695001D8D57 /* AFPropertyListRequestOperation.m in Sources */,
+				4E7208901A3535DD001D8D57 /* AppDelegate.m in Sources */,
+				4E7208CA1A353695001D8D57 /* AFURLConnectionOperation.m in Sources */,
+				4E7208CB1A353695001D8D57 /* AFXMLRequestOperation.m in Sources */,
+				4E7208C71A353695001D8D57 /* AFJSONRequestOperation.m in Sources */,
+				4E7208CC1A353695001D8D57 /* UIImageView+AFNetworking.m in Sources */,
+				4E7208C81A353695001D8D57 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				4E7208C51A353695001D8D57 /* AFHTTPRequestOperation.m in Sources */,
+				4E72088D1A3535DD001D8D57 /* main.m in Sources */,
+				4E7208C41A353695001D8D57 /* AFHTTPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E72089C1A3535DD001D8D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7208A71A3535DD001D8D57 /* DoubanDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E7208A21A3535DD001D8D57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E7208861A3535DD001D8D57 /* DoubanDemo */;
+			targetProxy = 4E7208A11A3535DD001D8D57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E7208941A3535DD001D8D57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E7208951A3535DD001D8D57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E7208991A3535DD001D8D57 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E72089A1A3535DD001D8D57 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E7208A81A3535DD001D8D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E7208A91A3535DD001D8D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E7208AB1A3535DD001D8D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoubanDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E7208AC1A3535DD001D8D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoubanDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E7208AE1A3535DD001D8D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoubanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubanDemo.app/DoubanDemo";
+			};
+			name = Debug;
+		};
+		4E7208AF1A3535DD001D8D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoubanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubanDemo.app/DoubanDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E7208821A3535DD001D8D57 /* Build configuration list for PBXProject "DoubanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7208A81A3535DD001D8D57 /* Debug */,
+				4E7208A91A3535DD001D8D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7208AA1A3535DD001D8D57 /* Build configuration list for PBXNativeTarget "DoubanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7208AB1A3535DD001D8D57 /* Debug */,
+				4E7208AC1A3535DD001D8D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E7208AD1A3535DD001D8D57 /* Build configuration list for PBXNativeTarget "DoubanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7208AE1A3535DD001D8D57 /* Debug */,
+				4E7208AF1A3535DD001D8D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E72087F1A3535DD001D8D57 /* Project object */;
+}

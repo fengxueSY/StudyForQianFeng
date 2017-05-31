@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dPB-Ve-E2I">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+    </dependencies>
+    <scenes>
+        <!--名单-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="名单" id="b0n-xL-YpL">
+                        <barButtonItem key="rightBarButtonItem" title="添加用户" id="ERb-ck-c1b">
+                            <connections>
+                                <segue destination="te9-de-1lx" kind="push" id="K3r-EJ-vuC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-80" y="334"/>
+        </scene>
+        <!--添加用户-->
+        <scene sceneID="sDp-Cu-0sk">
+            <objects>
+                <viewController id="te9-de-1lx" customClass="AddUserViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uDH-SY-0WV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q7w-3r-k5Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jpK-Gy-pHB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rzz-vh-nTy">
+                                <rect key="frame" x="85" y="99" width="174" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLt-hR-DWa">
+                                <rect key="frame" x="41" y="132" width="263" height="46"/>
+                                <state key="normal" title="选择门派">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7kd-XK-990" kind="push" id="gut-hR-C2d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alK-EY-PZD">
+                                <rect key="frame" x="41" y="195" width="263" height="89"/>
+                                <state key="normal" title="选择武功">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="p9y-fX-94i" kind="push" id="Tx4-iL-a2h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="添加用户" id="Uim-4T-TIm">
+                        <barButtonItem key="rightBarButtonItem" title="完成" id="fNR-e7-T5a">
+                            <connections>
+                                <action selector="addUser:" destination="te9-de-1lx" id="5Ha-k8-Vmo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="_menpaiButton" destination="OLt-hR-DWa" id="Lsn-18-Qqs"/>
+                        <outlet property="_nameField" destination="rzz-vh-nTy" id="2zJ-Kz-6VN"/>
+                        <outlet property="_wugongButton" destination="alK-EY-PZD" id="oax-m0-yhN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T24-9v-g0Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="287" y="334"/>
+        </scene>
+        <!--选择武功-->
+        <scene sceneID="fdt-Tt-Krt">
+            <objects>
+                <viewController id="p9y-fX-94i" customClass="WuGongViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QSu-Vm-Nf2"/>
+                        <viewControllerLayoutGuide type="bottom" id="G68-8v-tuA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="81f-Jz-t0G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="选择武功" id="T48-Hn-4n3"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Obj-pG-UQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697" y="634"/>
+        </scene>
+        <!--选择门派-->
+        <scene sceneID="RiV-63-m9E">
+            <objects>
+                <viewController id="7kd-XK-990" customClass="MenpaiViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ezj-Zb-pXr"/>
+                        <viewControllerLayoutGuide type="bottom" id="kcI-p1-pvy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SIX-0X-7k6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="选择门派" id="LxP-pt-dJ1"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZpE-Oh-1Je" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697" y="-54"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wW9-7D-yCU">
+            <objects>
+                <navigationController id="dPB-Ve-E2I" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nc5-zi-n69">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Efa-qd-tKs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VDP-Vm-Rmb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-447" y="334"/>
+        </scene>
+    </scenes>
+</document>
